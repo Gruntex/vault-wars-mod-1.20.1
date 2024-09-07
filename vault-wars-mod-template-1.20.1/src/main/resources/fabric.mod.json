@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "vault-wars-mod",
+	"version": "${version}",
+	"name": "Vault Wars Mod",
+	"description": "Build vaults, protect your home, and invade others with the Vault Wars Mod!",
+	"authors": [
+		"Froge!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/vault-wars-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.froge.vaultwarsmod.VaultWarsMod"
+		],
+		"client": [
+			"net.froge.vaultwarsmod.VaultWarsModClient"
+		],
+		"fabric-datagen": [
+			"net.froge.vaultwarsmod.VaultWarsModDataGenerator"
+		]
+	},
+	"mixins": [
+		"vault-wars-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.4",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "item.tutorialmod.ruby": "Rubyyyy",
+  "item.tutorialmod.raw_ruby": "Raw Ruby?",
+  "item.tutorialmod.metal_detector": "Memdal Detector",
+  "item.tutorialmod.dorito_taco": "Taco Bell Dorito's Locos Taco",
+  "item.tutorialmod.crunchwrap": "Taco Bell Crunchwrap Supreme",
+  "item.tutorialmod.burn_dust": "Burn Dust",
+
+  "block.tutorialmod.ruby_block": "Block of Rooby",
+  "block.tutorialmod.raw_ruby_block": "Block of Raw Roobie",
+  "block.tutorialmod.ruby_ore": "Roob Ore",
+  "block.tutorialmod.deepslate_ruby_ore": "Deeper Roob Ore",
+  "block.tutorialmod.nether_ruby_ore": "Nethr Rub Ore",
+  "block.tutorialmod.end_stone_ruby_ore": "The end of roob Ore",
+  "block.tutorialmod.sound_block": "Sounding Block",
+  "block.tutorialmod.gem_polishing_station": "Gem Polishing Station",
+
+  "tooltip.tutorialmod.metal_detector.tooltip":  "Find's valuables underground",
+
+  "itemgroup.ruby": "Ruby Tutorial Group"
+}
